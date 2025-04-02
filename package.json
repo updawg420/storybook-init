@@ -12,26 +12,26 @@
     "build:storybook:bun": "bunx --bun storybook build --docs --output-dir storybook"
   },
   "peerDependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   },
   "devDependencies": {
-    "@storybook/addon-a11y": "^8.6.0",
+    "@es-proj/configs": "^1.0.5",
+    "@rsbuild/plugin-react": "^1.1.1",
+    "@rslib/core": "^0.6.1",
+    "@storybook/addon-a11y": "^8.6.11",
     "@storybook/addon-coverage": "^1.0.5",
-    "@storybook/addon-essentials": "^8.6.0",
-    "@storybook/addon-interactions": "^8.6.0",
-    "@storybook/addon-links": "^8.6.0",
-    "@storybook/blocks": "^8.6.0",
-    "@storybook/react-vite": "^8.6.0",
-    "@types/node": "^22.13.5",
-    "@types/react": "^19.0.10",
-    "@types/react-dom": "^19.0.4",
-    "@vitejs/plugin-react-swc": "^3.8.0",
+    "@storybook/addon-essentials": "^8.6.11",
+    "@storybook/addon-interactions": "^8.6.11",
+    "@storybook/addon-links": "^8.6.11",
+    "@storybook/blocks": "^8.6.11",
+    "@types/node": "^22.13.17",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.1",
     "ajv": "^8.17.1",
-    "es-proj": "^1.5.0",
-    "storybook": "^8.6.0",
-    "typescript": "^5.7.3",
-    "vite": "^6.2.0",
-    "vite-plugin-dts": "^4.5.0"
+    "storybook": "^8.6.11",
+    "storybook-addon-rslib": "^1.0.1",
+    "storybook-react-rsbuild": "^1.0.1",
+    "typescript": "^5.8.2"
   }
 }
